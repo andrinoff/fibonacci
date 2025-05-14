@@ -13,12 +13,10 @@ export default function fibonacci(n:number) {
         return
     }
     for (n -2; n>0;) {
-
         console.log(fib1 + ", ")
         fib1 = fib2+fib3
         fib3 = fib2
         fib2 = fib1
-
         n--
     }
 
