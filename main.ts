@@ -6,7 +6,11 @@ let fib3 = BigInt(0)
 
 
 
+<<<<<<< HEAD
 function fibonacci(n) {
+=======
+export default function fibonacci(n) {
+>>>>>>> ff94a53 (added api)
     if (n == 1) {
         console.log(1)
         return
