@@ -3,10 +3,7 @@ let fib1 = BigInt(1)
 let fib2 = BigInt(1)
 let fib3 = BigInt(0)
 
-
-
-
-export default function fibonacci(n) {
+export default function fibonacci(n:number) {
     if (n == 1) {
         console.log(1)
         return

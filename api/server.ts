@@ -9,7 +9,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         return res.status(404)
     }
     else {
-        fibonacci(n)
-        return res.status(500).json({"message": n})
+        var answer = fibonacci(parseInt(n))
+        return res.status(300).json({"message": answer})
     }
 }
